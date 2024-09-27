@@ -1,0 +1,14 @@
+class Student:
+    def __init__(self,Name,Rollno,Class,marks):
+        self.name= Name
+        self.rollno = Rollno
+        self.Class = Class
+        self.marks = marks
+    def display(self):
+        print(f'name,{self.name}')
+        print(f'rollno,{self.rollno}')
+        print(f'class,{self.Class}')
+        print(f'marks,{self.marks}')
+    
+s1= Student('niha','30','10',['77,87,99,89'])
+s1.display()
